@@ -1,3 +1,3 @@
-# Lab 2 - Starter
+# Lab 3
 
-https://charlottekim123.github.io/Lab2_Starter/
+https://charlottekim123.github.io/sp25-cse110-lab3/
