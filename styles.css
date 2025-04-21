@@ -1,1 +1,56 @@
+/* Sizing and color of page*/
+* {
+  box-sizing: border-box;
+  font-size: 1.5rem;
+}
+
+@property --text-color {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: white;
+}
+
+:root {
+  --text-color: 16px;
+}
+
+p {
+  color: rgb(255,255,255);
+}
+
+p {
+  color: var(--text-color);
+}
+
+sizing {
+  background-color: pink;
+  padding: 20px;
+  height: 100vh;
+}
+
+/* color for title*/
+h1 {
+  color: #000000;
+  border-style: solid;
+  border-color: black;
+  border-width: 1in;
+  border-radius: 100pt;
+  margin: auto;
+}
+
+h2{
+  color: hsl(0, 0%, 0%);
+}
+
+h2
+
+h3, h4, h5, h6{
+  color(display-p3 0 0 0 / 1);
+}
+
+p {
+  padding: 40px;
+  color: color-mix(in hsl, hsl(0 0 0), white 0%);
+  font-size: 1em;
+}
 
