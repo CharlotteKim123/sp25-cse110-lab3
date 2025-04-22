@@ -9,12 +9,13 @@
   font-famiy: sans-serif;
   max-width: device-width;
   min-width: 100px;
+  color: black;
 }
 
 @property --text-color {
   syntax: "<color>";
   inherits: false;
-  initial-value: white;
+  initial-value: black;
 }
 
 :root {
@@ -23,7 +24,7 @@
 }
 
 p {
-  color: rgb(255,255,255);
+  color: rgb(0,0,128);
 }
 
 p {
