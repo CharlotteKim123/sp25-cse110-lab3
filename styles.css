@@ -124,3 +124,7 @@ h6 {
   background-color: white;
 }
 
+#media1 {
+  display: flex;
+  align-items: center;
+}
