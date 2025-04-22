@@ -1,7 +1,13 @@
 /* Sizing and color of page*/
 * {
+  display: inline;
   box-sizing: border-box;
   font-size: 1.5rem;
+  text-align: center;
+  position: static;
+  font-famiy: sans-serif;
+  max-width: device-width;
+  min-width: 100px;
 }
 
 @property --text-color {
@@ -11,6 +17,7 @@
 }
 
 :root {
+  display: none;
   --text-color: 16px;
 }
 
@@ -36,21 +43,56 @@ h1 {
   border-width: 1in;
   border-radius: 100pt;
   margin: auto;
+  position: sticky;
+}
+
+h1:hover{
+  background-color: blue;
 }
 
 h2{
   color: hsl(0, 0%, 0%);
 }
 
-h2
+h4 > ol {
+  margin-top: 200px;
+  margin-bottom: 100px;
+  margin-right: 200px;
+  margin-left: 100px;
+  padding-top: 200px;
+  padding-bottom: 100px;
+  padding-left: 200px;
+  padding-right: 100px;
+}
+
+h2, h3 {
+  margin: 1.5rem 0.5rem 1.5rem 0.5rem;
+  color: #000000;
+  border-style: solid;
+  border-color: black;
+  border-width: 1in;
+  border-radius: 100pt;
+}
 
 h3, h4, h5, h6{
   color(display-p3 0 0 0 / 1);
+  text-decoration: underline;
 }
 
 p {
-  padding: 40px;
+  padding: 40px 20px 40px 20px;
   color: color-mix(in hsl, hsl(0 0 0), white 0%);
   font-size: 1em;
 }
+
+video, audio {
+  width: device-width;
+  height: device-height;
+}
+
+a:active {
+  background-color: blue;
+}
+
+
 
