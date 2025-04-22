@@ -129,4 +129,7 @@ h6 {
   align-items: center;
 }
 
+a[target] {
+  background-color: green;
+}
 
