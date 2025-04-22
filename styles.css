@@ -69,12 +69,12 @@ h4 > ol {
   padding-right: 100px;
 }
 
-section > h4 {
+section h4 {
   display: flex;
   align-items: center;
 }
 
-section > ol {
+section ol {
   display: flex;
   display: grid;
   align-content: center;
@@ -131,4 +131,31 @@ h6 {
 
 a[target] {
   background-color: green;
+}
+
+section + div {
+  background-color: orange;
+}
+
+div ~ p {
+  background-color: blue;
+}
+
+p.business {
+  background-color: purple;
+}
+
+h4:has(+ p) {
+  color: gray;
+}
+
+nav {
+  background-color: yellow;
+  & > a {
+    color: blue;
+    &:hover {
+      color: black;
+      background-color: magenta;
+    }
+  }
 }
