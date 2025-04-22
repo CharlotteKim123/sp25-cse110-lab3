@@ -101,7 +101,6 @@ p {
 }
 
 video, audio {
-  display: inline;
   width: device-width;
   height: device-height;
 }
