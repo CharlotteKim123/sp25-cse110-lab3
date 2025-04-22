@@ -101,7 +101,7 @@ p {
   font-size: 1em;
 }
 
-video, audio {
+@media video, audio {
   width: device-width;
   height: device-height;
 }
@@ -110,5 +110,14 @@ a:active {
   background-color: blue;
 }
 
+div > ol {
+  display: grid;
+  grid: auto / auto auto;
+}
+
+h6 {
+  display: grid;
+  grid: auto / auto auto;
+}
 
 
