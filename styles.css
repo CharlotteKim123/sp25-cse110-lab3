@@ -128,3 +128,7 @@ h6 {
   display: flex;
   align-items: center;
 }
+
+a[target] {
+  background-color: green;
+}
