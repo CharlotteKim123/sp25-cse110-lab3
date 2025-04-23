@@ -142,7 +142,7 @@ a[target] {
 }
 
 section + div {
-  background-color: orange;
+  background-color: light-blue;
 }
 
 div ~ p {
@@ -158,7 +158,7 @@ h4:has(+ p) {
 }
 
 nav {
-  background-color: light-blue;
+  background-color: coral;
 }
 
 nav > a {
