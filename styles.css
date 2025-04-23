@@ -5,6 +5,7 @@
   box-sizing: border-box;
   font-size: 1.5rem;
   text-align: center;
+  align-content: center;
   position: static;
   font-family: sans-serif;
   max-width: 768px;
@@ -91,7 +92,7 @@ h2, h3 {
 }
 
 h3, h4, h5, h6 {
-  color: color(srgb 0 0 0 / 0.5);
+  color: color(from black srgb 0 0 0 / 0.5);
   text-decoration: underline;
 }
 
