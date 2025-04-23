@@ -10,6 +10,7 @@
   max-width: device-width;
   min-width: 100px;
   color: black;
+  background-color: pink;
 }
 
 @property --text-color {
