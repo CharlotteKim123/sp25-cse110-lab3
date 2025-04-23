@@ -6,7 +6,7 @@
   font-size: 1.5rem;
   text-align: center;
   position: static;
-  font-famiy: sans-serif;
+  font-family: sans-serif;
   max-width: device-width;
   min-width: 100px;
   color: black;
@@ -20,15 +20,14 @@
 }
 
 :root {
-  display: none;
-  --text-color: 16px;
+  --text-color: black;
 }
 
 p {
   color: rgb(0,0,128);
 }
 
-p {
+h1 {
   color: var(--text-color);
 }
 
@@ -102,9 +101,12 @@ p {
   font-size: 1em;
 }
 
-@media video, audio {
-  width: device-width;
-  height: device-height;
+@media {
+  width: 768px;
+  height: 1024px;
+  body {
+    background-color: pink;
+  }
 }
 
 a:active {
@@ -152,11 +154,8 @@ h4:has(+ p) {
 
 nav {
   background-color: yellow;
-  & > a {
-    color: blue;
-    &:hover {
-      color: black;
-      background-color: magenta;
-    }
-  }
 }
+
+nav > a {
+    color: magenta;
+  }
