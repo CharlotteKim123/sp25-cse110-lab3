@@ -8,7 +8,7 @@
   align-content: center;
   position: static;
   font-family: sans-serif;
-  max-width: 768px;
+  max-width: 1000px;
   min-width: 100px;
   color: black;
   background-color: pink;
@@ -92,7 +92,7 @@ h2, h3 {
 }
 
 h3, h4, h5, h6 {
-  color: color(from black srgb 0 0 0 / 0.5);
+  color: color(from black srgb 0 0 0 [ / 0.5]);
   text-decoration: underline;
 }
 
