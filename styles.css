@@ -86,8 +86,8 @@ h2, h3 {
   color: #000000;
   border-style: solid;
   border-color: black;
-  border-width: 1in;
-  border-radius: 100pt;
+  border-width: 0.5in;
+  border-radius: 40pt;
 }
 
 h3, h4, h5, h6{
@@ -101,17 +101,20 @@ p {
   font-size: 1em;
 }
 
-@media {
-  width: 768px;
-  height: 1024px;
+@media (width: 768px) and (height: 1024px) {
   body {
     background-color: pink;
   }
 }
 
 video, audio {
-  display: flex;
-  align-content: center;
+  display: inline-block;
+  margin: auto;
+}
+
+img {
+  display: inline-block;
+  margin: auto;
 }
 
 a:active {
@@ -142,7 +145,7 @@ a[target] {
 }
 
 section + div {
-  background-color: light-blue;
+  background-color: lightblue;
 }
 
 div ~ p {
@@ -158,9 +161,9 @@ h4:has(+ p) {
 }
 
 nav {
-  background-color: coral;
+  background-color: salmon;
 }
 
 nav > a {
     color: magenta;
-  }
+}
