@@ -5,10 +5,9 @@
   box-sizing: border-box;
   font-size: 1.5rem;
   text-align: center;
-  align-items: center;
   position: static;
   font-family: sans-serif;
-  max-width: 1000px;
+  max-width: 800px;
   min-width: 100px;
   color: black;
   background-color: pink;
@@ -92,7 +91,7 @@ h2, h3 {
 }
 
 h3, h4, h5, h6 {
-  color: color(in black srgb 0 0 0 [ / 0.5]);
+  color: color(from black srgb 0 0 0 [ / 0.5]);
   text-decoration: underline;
 }
 
