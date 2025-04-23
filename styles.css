@@ -20,7 +20,7 @@
 }
 
 :root {
-  --text-color: black;
+  --text-color: blue;
 }
 
 p {
@@ -43,8 +43,8 @@ h1 {
   color: #000000;
   border-style: solid;
   border-color: black;
-  border-width: 1in;
-  border-radius: 100pt;
+  border-width: 0.5in;
+  border-radius: 40pt;
   margin: auto;
   position: sticky;
   
@@ -96,7 +96,7 @@ h3, h4, h5, h6{
 }
 
 p {
-  padding: 40px 20px 40px 20px;
+  padding: 20px 10px 20px 10px;
   color: color-mix(in hsl, hsl(0 0 0), white 0%);
   font-size: 1em;
 }
@@ -107,6 +107,11 @@ p {
   body {
     background-color: pink;
   }
+}
+
+video, audio {
+  display: flex;
+  align-content: center;
 }
 
 a:active {
@@ -133,7 +138,7 @@ h6 {
 }
 
 a[target] {
-  background-color: green;
+  background-color: white;
 }
 
 section + div {
@@ -153,7 +158,7 @@ h4:has(+ p) {
 }
 
 nav {
-  background-color: yellow;
+  background-color: light-blue;
 }
 
 nav > a {
