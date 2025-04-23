@@ -13,7 +13,7 @@
   background-color: pink;
 }
 
---text-color {
+@property--text-color {
   syntax: "<color>";
   inherits: false;
   initial-value: black;
@@ -91,13 +91,13 @@ h2, h3 {
 }
 
 h3, h4, h5, h6 {
-  color: color(0 0 0 / 1);
+  color: color(srgb 0 0 0 / 0.5);
   text-decoration: underline;
 }
 
 p {
   padding: 20px 10px 20px 10px;
-  color: color-mix(in hsl, hsl(0 0 0), white);
+  color: color-mix(in hsl, hsl(0 0 0), white 10%);
   font-size: 1em;
 }
 
