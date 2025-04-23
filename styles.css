@@ -7,7 +7,7 @@
   text-align: center;
   position: static;
   font-family: sans-serif;
-  max-width: 800px;
+  max-width: device-width;
   min-width: 100px;
   color: black;
   background-color: pink;
