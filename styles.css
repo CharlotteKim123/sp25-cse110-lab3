@@ -128,7 +128,7 @@ div > ol {
 
 h6 {
   display: grid;
-  grid: auto / auto auto;
+  margin: auto;
 }
 
 .business {
