@@ -7,7 +7,7 @@
   text-align: center;
   position: static;
   font-family: sans-serif;
-  max-width: device-width;
+  max-width: 768px;
   min-width: 100px;
   color: black;
   background-color: pink;
@@ -90,14 +90,14 @@ h2, h3 {
   border-radius: 40pt;
 }
 
-h3, h4, h5, h6{
-  color(display-p3 0 0 0 / 1);
+h3, h4, h5, h6 {
+  color: color(display-p3 0 0 0 / 1);
   text-decoration: underline;
 }
 
 p {
   padding: 20px 10px 20px 10px;
-  color: color-mix(in hsl, hsl(0 0 0), white 0%);
+  color: color-mix(in hsl, hsl(0 0 0), 0%);
   font-size: 1em;
 }
 
